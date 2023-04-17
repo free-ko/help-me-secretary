@@ -1,0 +1,54 @@
+{
+  "name": "kay-secretary",
+  "version": "0.1.0",
+  "private": true,
+  "lint-staged": {
+    "*.ts": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.tsx": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "13.3.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "zustand": "^4.3.6"
+  },
+  "devDependencies": {
+    "@emotion/babel-plugin": "^11.10.6",
+    "@emotion/eslint-plugin": "^11.10.0",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@next/eslint-plugin-next": "^12.2.5",
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.35",
+    "@types/react-dom": "18.0.11",
+    "@types/eslint": "^8",
+    "@typescript-eslint/eslint-plugin": "^5.36.0",
+    "@typescript-eslint/parser": "^5.36.0",
+    "dayjs": "^1.11.7",
+    "eslint": "8.38.0",
+    "eslint-config-next": "13.3.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-import-resolver-typescript": "^3.5.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-next": "^0.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.7",
+    "lint-staged": "^13.2.1",
+    "next-seo": "^6.0.0",
+    "prettier": "^2.8.7",
+    "typescript": "5.0.4"
+  }
+}
