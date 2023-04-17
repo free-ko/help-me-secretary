@@ -1,11 +1,8 @@
 :root {
-  --gnbHeight: 100px;
-}
-
-:root {
   width: 100%;
   height: 99.9%;
   overflow: hidden;
+  --gnbHeight: 100px;
 }
 
 body {

@@ -16,11 +16,7 @@ const Styled = {
 };
 
 const Layout = ({ children }) => {
-  return (
-    <Styled.Wrapper>
-      <main>{children}</main>
-    </Styled.Wrapper>
-  );
+  return <Styled.Wrapper>{children}</Styled.Wrapper>;
 };
 
 export default Layout;

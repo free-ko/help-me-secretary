@@ -1,7 +1,11 @@
+import { Header } from "~/components/Header";
+import { Body } from "~/components/Body";
+
 const Home = () => {
   return (
     <>
-      <h1>홈</h1>
+      <Header />
+      <Body />
     </>
   );
 };
